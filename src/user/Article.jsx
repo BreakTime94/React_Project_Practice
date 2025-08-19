@@ -1,0 +1,11 @@
+import React from "react";
+
+function Article(props) {
+  return(
+      <div> {/* Article */}
+        <h1>{props.title}</h1>
+        <p>{props.content}</p>
+      </div>
+  );
+}
+export default Article
